@@ -9,7 +9,7 @@
     width:100vw;
     height: 100vh;
     object-fit: cover;
-    filter: brightness (-100%);
+    filter: brightness(50%);
 }
 .text h1{
     position: absolute;

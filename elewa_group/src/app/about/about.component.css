@@ -9,7 +9,7 @@
     width:100vw;
     height: 100vh;
     object-fit: cover;
-    filter: brightness (-100%);
+    filter: brightness(50%);
 }
 
 .text {
@@ -33,13 +33,117 @@
     color: white;
 }
 
-.container{
+.container {
     position: relative;
-    top: 800px;
+    top: 560px;
     width: 100%;
-    padding: 100px 0;
+    padding: 60px 60px;
     max-width: 100%;
     margin: auto;
     /* background-color: var(--elewa-group-website-color-card); */
     border-radius: 0 0 30px 30px;
+}
+.row h1 {
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+.col-6 p{
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+}
+.col-4{
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-4 div{
+    padding: 60px;
+    width: 100%
+}
+.col-4 h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.col-4 p{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    background-color: black;
+    width: 100%;
+    padding: 200px ;
+    position: relative;
+    top: 460px;
+   
+    
+}
+.culture{
+    position: relative;
+    top: 460px;
+    width: 100%;
+    padding: 60px 60px;
+    max-width: 100%;
+    margin: auto;
+    /* background-color: var(--elewa-group-website-color-card); */
+    border-radius: 0 0 30px 30px;
+}
+.culture p{
+    width: 60%;
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.code{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.code div{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.code img{
+    width: 20%;
+}
+.code h1 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.code p {
+    font-weight: 300;
+    font-size: 25px;
+    width: 100%;
+}
+.code-t{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.code-t img{
+    width: 20%;
+    padding: 50px;
+}
+.code-t h1 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.code-t p {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 25px;
 }
