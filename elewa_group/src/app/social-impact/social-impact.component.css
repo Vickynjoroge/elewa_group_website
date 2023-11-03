@@ -9,7 +9,7 @@
     width:100vw;
     height: 100vh;
     object-fit: cover;
-    filter: brightness (-100%);
+    filter: brightness (50%);
 }
 .text h1{
     position: absolute;
@@ -27,3 +27,114 @@
     left: 7%;
     color: white;
 }
+
+.container {
+    position: relative;
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    min-height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    padding-top: 100px;
+    top: 590px;
+    left: 100px
+}
+.buffalo{
+    flex-direction: row-reverse;
+    top: 800px;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+}
+.biz {
+   top: 960px;
+}
+.container-fluid{
+    background-color: black;
+    top: 760px;
+}
+.container-fluid2{
+    background-color: black;
+    top: 760px;
+}
+
+.open{
+    top:1060px;
+    background-color: black;
+}
+.col-6 img{
+    max-width: 45vw;
+    max-height: max(70vh, 500px);
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.col-6 h1 {
+    /* position: absolute; */
+    font-weight: 300;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+.col-6 p {
+    /* position: absolute; */
+    font-weight: 200;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.mindset_container {
+    position: relative;
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    min-height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    top: 1560px;
+    left: 100px
+}
+
+.info {
+    position: relative;
+    padding-inline: 100px 260px -0.1;
+    width: 100%;
+    height: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    font-size: 2rem;
+    background-color: black;
+    top:63px;
+    bottom: 100px;
+}
+
+.stats {
+    position: relative;
+    padding: 100px 260px 0;
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* justify-items: center; */
+    font-size: 2rem;
+    padding: 1px;
+    top: -1px;
+    color: white;   
+    align-items: center;
+}
+
+.stats h1{
+    font-weight: 600;
+    font-size: 4.5rem;
+
+}
+.stats p {
+    font-weight: 200;
+    font-size: 2rem;
+}
+

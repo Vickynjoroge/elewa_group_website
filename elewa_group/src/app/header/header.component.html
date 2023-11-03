@@ -1,6 +1,9 @@
 <div class="position-absolute navbar">
     <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690297/elewa-group-website/Icons/SVG/_Logo/Logo_White_arvoyx.svg" alt="Logo">
-    <ul class="nav justify-content-end">
+    <div class="btn">
+        <button type="button" class="btn btn-light" (click)="menuopen = !menuopen">Menu</button>
+    </div>
+    <ul class="nav justify-content-end" [class.open]="menuopen">
         <li class="nav-item">
           <a class="nav-link active text-white" routerLink = '/about'>About</a>
         </li>
