@@ -1,18 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { InvestComponent } from './invest/invest.component';
 import { SocialImpactComponent } from './social-impact/social-impact.component';
+import { HeaderComponent } from './header/header.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    InvestComponent,
-    SocialImpactComponent
+    // AboutComponent,
+    routing,
+    // InvestComponent,
+    // SocialImpactComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
