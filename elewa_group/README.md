@@ -1,27 +1,67 @@
-# ElewaGroup
+# Elewa group
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+Elewa is a group of companies which unlock true human potential.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Built With](#built-with)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- About Elewa
+- Social impact
+- Invest
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To get started with the Elewa App on your local machine, follow these instructions.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
+List any software or tools that need to be installed before running the project. For example:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js and npm
+- Angular CLI
 
-## Further help
+### Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Step-by-step guide on how to install and run the project locally.
+
+1. Clone the repository: `git clone git@github.com:Vickynjoroge/elewa_group_website.git`
+2. Navigate to the project directory: `cd elewa-group-website/elewa_group`
+3. Install dependencies: `npm install`
+4. Start the development server: `ng serve`
+
+## Usage
+
+- Open the app in your web browser.
+- View the elewa website
+
+## Built With
+
+- Angular
+- TypeScript
+- Bootstrap
+
+## License
+
+This project is licensed under the [MIT Licence] - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+Special thanks to the Italanta team for their great resources.
+
+## Contact
+
+- Victor Ngigi Njoroge
+- vnjorogen2001@gmail.com
+- Project Link: [GitHub Repository](https://github.com/Vickynjoroge/elewa_group_website.git)
