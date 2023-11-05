@@ -7,7 +7,7 @@ import { AboutComponent } from './about/about.component';
 const routes: Routes = [
   {path:'invest', component:InvestComponent},
   {path:'social', component:SocialImpactComponent},
-  {path:'about', component:AboutComponent}
+  {path:'', component:AboutComponent}
 ];
 
 @NgModule({
